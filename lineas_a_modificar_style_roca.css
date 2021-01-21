@@ -1,0 +1,364 @@
+/*
+02/06/2020
+color a cambiar y en que linea del css se encuentra??
+*/
+
+a {																			(style.css: 20)
+	/*Este parece todo el color del tema de la plantilla No lo es*/
+	color: #1bbd36;
+}
+
+.back-to-top {																(style.css: 37)
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  right: 15px;
+  bottom: 15px;  
+  background: #1bbd36;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}			
+
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {				(style.css: 139)
+  color: #1bbd36;
+}		
+
+
+.nav-menu .drop-down ul {														(style.css: 143)
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: calc(100% + 30px);
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	padding: 10px 0;
+	background: #fff;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+	transition: 0.3s;
+	border-top: 2px solid #1bbd36;
+}
+
+
+.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {		
+  color: #1bbd36;															(style.css: 177)
+}
+
+
+.mobile-nav-toggle i {														(style.css: 237)
+  color: #1bbd36;
+}							
+
+
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {			(style.css: 272)
+	color: #1bbd36;
+	text-decoration: none;
+}
+
+
+.header-social-links a:hover {												(style.css: 345)
+	color: #1bbd36;
+}						
+
+
+#hero .carousel-content {													(style.css: 389)
+	background: rgba(4, 4, 4, 0.7);
+	padding: 20px;
+	color: #fff;
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	border-top: 5px solid #1bbd36;
+}
+
+
+#hero .btn-get-started {														(style.css: 405)
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 32px;
+	border-radius: 4px;
+	transition: 0.5s;
+	line-height: 1;
+	margin: 10px;
+	color: #fff;
+	-webkit-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+	border: 2px solid #1bbd36;
+}
+
+
+#hero .btn-get-started:hover {												(style.css: 422)
+	background: #1bbd36;
+	color: #fff;
+	text-decoration: none;
+}	
+
+
+#hero .carousel-indicators li.active {											(style.css: 489)
+	opacity: 1;
+	background: #1bbd36;
+}			
+
+
+.section-title h2::after {													(style.css: 548)
+	content: '';
+	position: absolute;	
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: #1bbd36;
+	bottom: 0;
+	left: calc(50% - 25px);
+}
+
+
+.breadcrumbs {																(style.css: 566)
+	padding: 15px 0;
+	background: #1bbd36;
+	min-height: 40px;
+	margin-top: 72px;
+}
+
+.portfolio #portfolio-flters li:hover,.portfolio #portfolio-flters li.filter-active {							
+	color: #fff;															(style.css: 775)
+	background: #1bbd36;
+}
+
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,.portfolio .portfolio-item .portfolio-info .details-link:hover {	
+  color: #1bbd36;															(style.css: 821)
+}
+
+
+.about-us .content ul i {														(style.css: 916)
+	left: 0;
+	top: 7px;
+	position: absolute;
+	font-size: 20px;
+	color: #1bbd36;
+}
+
+
+.team .member .social a:hover {												(style.css: 965)
+  color: #1bbd36;
+}						
+
+.skills .progress-bar {														(style.css: 1031)
+	width: 1px;
+	height: 10px;
+	transition: .9s;
+	background-color: #1bbd36;
+}
+
+.features .icon-box h3 a:hover {												(style.css: 1069)
+  color: #1bbd36;
+}						
+
+.pricing h4 {																(style.css: 1096)
+	font-size: 36px;
+	color: #1bbd36;
+	font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 20px;
+}
+
+.pricing ul i {																(style.css: 1129)
+  color: #1bbd36;
+  font-size: 18px;
+  padding-right: 4px;
+}			
+
+
+.pricing .btn-buy {															(style.css: 1147)
+	background: #1bbd36;
+	display: inline-block;
+	padding: 8px 35px 10px 35px;
+	border-radius: 4px;
+	color: #fff;
+	transition: none;
+	font-size: 14px;
+	font-weight: 400; 
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+	transition: 0.3s;
+}
+
+.pricing .featured h3 {														(style.css: 1165)
+  color: #fff;
+  background: #1bbd36;
+}					
+
+.pricing .advanced {															(style.css: 1170)
+	width: 200px;
+	position: absolute;
+	top: 18px;
+	right: -68px;
+	transform: rotate(45deg);
+	z-index: 1;
+	font-size: 14px;
+	padding: 1px 0 3px 0;
+	background: #1bbd36;
+	color: #fff;
+}
+
+.faq .faq-list a.collapsed:hover {											(style.css: 1246)
+  color: #1bbd36;
+}						
+
+
+.contact .info i {															(style.css: 1332)
+	font-size: 20px;
+	color: #1bbd36;
+	float: left;
+	width: 44px;
+	height: 44px;
+	border: 1px solid #1bbd36;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	transition: all 0.3s;
+}
+
+.contact .info:hover i {														(style.css: 1361)
+  background: #1bbd36;
+  color: #fff;
+}					
+
+.contact .php-email-form input:focus,.contact .php-email-form textarea:focus {	(style.css: 1430)
+  border-color: #1bbd36;
+}
+
+
+.contact .php-email-form button[type="submit"] {								(style.css: 1442)
+	background: #1bbd36;
+	border: 0;
+	padding: 10px 24px;
+	color: #fff;
+	transition: 0.4s;
+	border-radius: 4px;
+}
+
+
+.portfolio-details .portfolio-details-carousel .owl-dot.active {				(style.css: 1503)
+  background-color: #1bbd36 !important;
+}
+
+
+.blog .entry .entry-title a:hover {											(style.css: 1588)
+  color: #1bbd36;
+}						
+
+
+.blog .entry .entry-meta a:hover {											(style.css: 1622)
+  color: #1bbd36;
+}						
+
+
+.blog .entry .entry-content .read-more a {										(style.css: 1635)
+	display: inline-block;
+	background: #1bbd36;
+	color: #fff;
+	padding: 7px 25px;
+	transition: 0.3s;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+
+.blog .entry .entry-footer a:hover {											(style.css: 1716)
+  color: #1bbd36;
+}						
+
+.blog .blog-comments .comment h5 a:hover {										(style.css: 1821)
+  color: #1bbd36;
+}					
+
+
+.blog .blog-comments .reply-form 	.btn-primary {								(style.css: 1889)
+	padding: 8px 20px;
+	border: 0;
+	border-radius: 4px;
+	background-color: #1bbd36;
+}
+
+
+.blog .blog-pagination li.active, .blog .blog-pagination li:hover {				(style.css: 1926)
+	background: #1bbd36;
+	border: 1px solid #1bbd36;
+	border-radius: 4px;
+}
+
+
+.blog .sidebar .search-form form button {										(style.css: 1980)
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border: 0;
+	background: none;
+	font-size: 16px;
+	padding: 0 15px;
+	margin: -1px;
+	background: #1bbd36;
+	color: #fff;
+	transition: 0.3s;
+	border-radius: 0 4px 4px 0;
+}
+
+
+.blog .sidebar .categories ul a:hover {											(style.css: 2014)
+  color: #1bbd36;
+}					
+
+.blog .sidebar .recent-posts h4 a:hover {										(style.css: 2044)
+  color: #1bbd36;
+}					
+
+
+.blog .sidebar .tags ul a:hover {												(style.css: 2080)
+	color: #fff;
+	border: 1px solid #1bbd36;
+	background: #1bbd36;
+}
+
+#footer .footer-newsletter form input[type="submit"] {							(style.css: 2200)
+	position: absolute;
+	top: 0;
+	right: -4px;
+	bottom: 0;
+	border: 0;
+	background: none;
+	font-size: 16px;
+	padding: 0 20px;
+	background: #1bbd36;
+	color: #fff;
+	transition: 0.3s;
+	border-radius: 0 4px 4px 0;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+#footer .social-links a:hover {												(style.css: 2245)
+	background: #1bbd36;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
